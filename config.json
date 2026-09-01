@@ -1,0 +1,140 @@
+{
+  "business": {
+    "name": "Treasure Valley Lawn Care",
+    "tagline": {
+      "autumn": "Fall cleanup, before the freeze sets in.",
+      "winter": "Snow's here. We're already out front."
+    },
+    "description": {
+      "autumn": "We handle the leaf drop, the last mow, and everything your lawn needs before the ground freezes. Locally owned and operated, serving the Treasure Valley since 2016.",
+      "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Treasure Valley since 2016."
+    },
+    "phone": "(208) 555-0142",
+    "email": "hello@treasurevalleylawncare.com",
+    "address": "Serving Nampa, Caldwell & the Treasure Valley, ID",
+    "hours": "Mon–Sat, 8am–6pm"
+  },
+
+  "season": {
+    "_comment": "Dates are MM-DD, compared against today's date to pick the theme. Autumn theme runs from autumnStart up to (not including) winterStart. Winter theme runs from winterStart through the rest of the year, until autumnStart comes around again next year. Change winterStart to 12-21 if you'd rather switch on the winter solstice instead of meteorological winter.",
+    "autumnStart": "09-01",
+    "winterStart": "12-01"
+  },
+
+  "services": {
+    "autumn": [
+      {
+        "title": "Fall Cleanup",
+        "price": "From $85",
+        "blurb": "Leaf removal, bed clearing, and a final trim to close out the season."
+      },
+      {
+        "title": "Aeration & Overseeding",
+        "price": "From $120",
+        "blurb": "Core aeration and overseeding to strengthen roots before winter dormancy."
+      },
+      {
+        "title": "Gutter & Yard Debris",
+        "price": "From $95",
+        "blurb": "Gutter clearing and yard debris haul-away, so nothing clogs when the spring melt hits."
+      }
+    ],
+    "winter": [
+      {
+        "title": "Snow Removal",
+        "price": "From $45/visit",
+        "blurb": "Driveway and walkway clearing, plowed or shoveled after every snowfall."
+      },
+      {
+        "title": "Ice Management",
+        "price": "From $35",
+        "blurb": "Sand and de-icing treatment for safe footing on steps and walkways."
+      },
+      {
+        "title": "Holiday Light Teardown",
+        "price": "From $75",
+        "blurb": "Takedown, untangling, and storage of holiday lighting once the season wraps."
+      }
+    ]
+  },
+
+  "pricing": {
+    "autumn": [
+      {
+        "plan": "Single Visit",
+        "price": "$85",
+        "period": "per visit",
+        "details": "One-time fall cleanup: leaves, beds, and a final mow.",
+        "featured": false
+      },
+      {
+        "plan": "Monthly Care",
+        "price": "$140",
+        "period": "per month",
+        "details": "Cleanup plus aeration, overseeding, and debris haul-away.",
+        "featured": true
+      },
+      {
+        "plan": "Full Season",
+        "price": "$360",
+        "period": "Sep – Nov",
+        "details": "Everything above, scheduled and paid up front. Save 15%.",
+        "featured": false
+      }
+    ],
+    "winter": [
+      {
+        "plan": "Per Visit",
+        "price": "$45",
+        "period": "per snowfall",
+        "details": "Driveway and walkway clearing after each snowfall.",
+        "featured": false
+      },
+      {
+        "plan": "Monthly Plan",
+        "price": "$150",
+        "period": "per month",
+        "details": "Unlimited clearing plus ice treatment on steps and walks.",
+        "featured": true
+      },
+      {
+        "plan": "Full Season",
+        "price": "$520",
+        "period": "Dec – Feb",
+        "details": "Unlimited clearing and ice treatment, all winter. Save 15%.",
+        "featured": false
+      }
+    ]
+  },
+
+  "calendar": {
+    "autumn": [
+      {
+        "month": "September",
+        "tasks": ["Final regular mow", "Weed treatment", "Schedule fall cleanup"]
+      },
+      {
+        "month": "October",
+        "tasks": ["Leaf removal begins", "Core aeration", "Overseeding"]
+      },
+      {
+        "month": "November",
+        "tasks": ["Final leaf pickup", "Gutter clearing", "Bed & irrigation winterizing"]
+      }
+    ],
+    "winter": [
+      {
+        "month": "December",
+        "tasks": ["Snow removal on call", "Holiday light teardown", "Ice treatment as needed"]
+      },
+      {
+        "month": "January",
+        "tasks": ["Snow removal on call", "Ice treatment as needed", "Equipment tune-up"]
+      },
+      {
+        "month": "February",
+        "tasks": ["Snow removal on call", "Ice treatment as needed", "Spring plan consultations"]
+      }
+    ]
+  }
+}

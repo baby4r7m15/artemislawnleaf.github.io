@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;600;700&display=swap');
+
+/* ---------- Season tokens ---------- */
+:root,
+[data-season="autumn"] {
+  --bg: #F2E8D5;
+  --surface: #FFFCF6;
+  --ink: #2A2014;
+  --ink-soft: #5C4A34;
+  --accent: #A8461F;
+  --accent-2: #6B7A3A;
+  --line: #D8C7A6;
+  --shadow: rgba(42, 32, 20, 0.12);
+}
+
+[data-season="winter"] {
+  --bg: #E7EEF2;
+  --surface: #FFFFFF;
+  --ink: #17242C;
+  --ink-soft: #47606B;
+  --accent: #2F5D7C;
+  --accent-2: #7C919A;
+  --line: #C6D6DC;
+  --shadow: rgba(23, 36, 44, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  transition: background 0.6s ease, color 0.6s ease;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  margin: 0 0 0.4em 0;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+a { color: var(--accent); }
+
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ---------- Header ---------- */
+header.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: 'Fraunces', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+nav.site-nav {
+  display: flex;
+  gap: 28px;
+}
+
+nav.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+nav.site-nav a:hover,
+nav.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  padding: 72px 0 56px;
+}
+
+.hero .wrap {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
+  line-height: 1.08;
+}
+
+.hero .tagline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.hero p.description {
+  max-width: 46ch;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.hero .cta-row {
+  margin-top: 28px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+}
+
+.btn.primary {
+  background: var(--accent);
+  color: var(--surface);
+}
+
+.btn.secondary {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.hero-art {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-art svg { width: 100%; height: 100%; }
+
+/* ---------- Section heading ---------- */
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.section-head h2 { font-size: 1.7rem; }
+
+.section-head .note {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+/* ---------- Service cards ---------- */
+.services {
+  padding: 8px 0 64px;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.service-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  padding: 26px 24px;
+  position: relative;
+}
+
+.service-card:nth-child(2) { border-left-color: var(--accent-2); }
+.service-card:nth-child(3) { border-left-color: var(--ink-soft); }
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-card .price {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  margin: 0;
+}
+
+/* ---------- Footer ---------- */
+footer.site-footer {
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+  padding: 36px 0 30px;
+}
+
+footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+footer .contact-block div { margin-bottom: 4px; }
+
+footer .season-tag {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  align-self: flex-end;
+}
+
+/* ---------- Pricing page ---------- */
+.pricing-section { padding: 56px 0 72px; }
+
+.plan-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.plan-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 30px 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-card.featured {
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.plan-card .plan-name {
+  font-weight: 700;
+  text-transform: none;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.plan-card .plan-price {
+  font-family: 'Fraunces', serif;
+  font-size: 2.1rem;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
+.plan-card .plan-period {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  margin-bottom: 18px;
+}
+
+.plan-card .plan-details {
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  flex-grow: 1;
+}
+
+.plan-card .badge {
+  align-self: flex-start;
+  background: var(--accent);
+  color: var(--surface);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-bottom: 14px;
+}
+
+/* ---------- Calendar page ---------- */
+.calendar-section { padding: 56px 0 72px; }
+
+.month-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.month-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 26px 24px;
+}
+
+.month-card h3 {
+  font-size: 1.15rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.month-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.month-card li {
+  padding: 7px 0;
+  border-bottom: 1px dashed var(--line);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.month-card li:last-child { border-bottom: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 780px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .hero-art { max-width: 280px; margin: 0 auto; }
+  .card-row, .plan-row, .month-row { grid-template-columns: 1fr; }
+  nav.site-nav { gap: 18px; }
+  footer .wrap { flex-direction: column; }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  body { transition: none; }
+}
+
+/* ---------- Focus visibility ---------- */
+a:focus-visible, .btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
