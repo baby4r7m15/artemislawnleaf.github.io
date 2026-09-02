@@ -1,17 +1,17 @@
 {
   "business": {
-    "name": "Treasure Valley Lawn Care",
+    "name": "Artemis Lawn and Leaf",
     "tagline": {
       "autumn": "Fall cleanup, before the freeze sets in.",
       "winter": "Snow's here. We're already out front."
     },
     "description": {
-      "autumn": "We handle the leaf drop, the last mow, and everything your lawn needs before the ground freezes. Locally owned and operated, serving the Treasure Valley since 2016.",
-      "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Treasure Valley since 2016."
+      "autumn": "We handle the leaf drop and cleanup so you don't have to before the ground freezes. Locally owned and operated, serving the Boise and Meridian area since 2025.",
+      "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Boise and Meridian area since 2025."
     },
-    "phone": "(208) 555-0142",
-    "email": "hello@treasurevalleylawncare.com",
-    "address": "Serving Nampa, Caldwell & the Treasure Valley, ID",
+    "phone": "",
+    "email": "",
+    "address": "Serving Boise and Meridian Idaho.",
     "hours": "Mon–Sat, 8am–6pm"
   },
 
@@ -26,12 +26,7 @@
       {
         "title": "Fall Cleanup",
         "price": "From $85",
-        "blurb": "Leaf removal, bed clearing, and a final trim to close out the season."
-      },
-      {
-        "title": "Aeration & Overseeding",
-        "price": "From $120",
-        "blurb": "Core aeration and overseeding to strengthen roots before winter dormancy."
+        "blurb": "Leaf removal, bed clearing, and a final weeding to close out the season."
       },
       {
         "title": "Gutter & Yard Debris",
@@ -64,20 +59,20 @@
         "plan": "Single Visit",
         "price": "$85",
         "period": "per visit",
-        "details": "One-time fall cleanup: leaves, beds, and a final mow.",
+        "details": "One-time fall cleanup: leaves, beds, and a final weeding.",
         "featured": false
       },
       {
         "plan": "Monthly Care",
         "price": "$140",
         "period": "per month",
-        "details": "Cleanup plus aeration, overseeding, and debris haul-away.",
+        "details": "Cleanup and debris haul-away.",
         "featured": true
       },
       {
         "plan": "Full Season",
         "price": "$360",
-        "period": "Sep – Nov",
+        "period": "Aug – Nov",
         "details": "Everything above, scheduled and paid up front. Save 15%.",
         "featured": false
       }
@@ -111,15 +106,15 @@
     "autumn": [
       {
         "month": "September",
-        "tasks": ["Final regular mow", "Weed treatment", "Schedule fall cleanup"]
+        "tasks": ["Weed treatment", "Schedule fall cleanup"]
       },
       {
         "month": "October",
-        "tasks": ["Leaf removal begins", "Core aeration", "Overseeding"]
+        "tasks": ["Leaf removal begins", "Last Weeding", "Debris cleanup before snow."]
       },
       {
         "month": "November",
-        "tasks": ["Final leaf pickup", "Gutter clearing", "Bed & irrigation winterizing"]
+        "tasks": ["Final leaf pickup", "Gutter clearing"]
       }
     ],
     "winter": [
@@ -129,7 +124,7 @@
       },
       {
         "month": "January",
-        "tasks": ["Snow removal on call", "Ice treatment as needed", "Equipment tune-up"]
+        "tasks": ["Snow removal on call", "Ice treatment as needed"]
       },
       {
         "month": "February",
