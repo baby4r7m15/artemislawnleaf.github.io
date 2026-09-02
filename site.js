@@ -48,12 +48,6 @@ function fillHeaderFooter(config) {
   document.querySelectorAll('[data-hours]').forEach(el => { el.textContent = config.business.hours; });
 }
 
-function fillSeasonTag(season) {
-  document.querySelectorAll('[data-season-tag]').forEach(el => {
-    el.textContent = `Currently showing: ${season === 'autumn' ? 'Autumn' : 'Winter'} theme`;
-  });
-}
-
 function heroArt(season) {
   if (season === 'autumn') {
     return `
