@@ -92,46 +92,46 @@
     "spring": [
       {
         "plan": "Single Visit",
-        "price": "$80",
+        "price": "$",
         "period": "per visit",
-        "details": "One-time spring startup: first mow, edging, and a system check.",
+        "details": "",
         "featured": false
       },
       {
         "plan": "Monthly Care",
-        "price": "$130",
+        "price": "$",
         "period": "per month",
-        "details": "Startup plus fertilization and bed refresh, scheduled monthly.",
+        "details": "",
         "featured": true
       },
       {
         "plan": "Full Season",
-        "price": "$340",
+        "price": "$",
         "period": "Mar – May",
-        "details": "Everything above, scheduled and paid up front. Save 15%.",
+        "details": "",
         "featured": false
       }
     ],
     "summer": [
       {
         "plan": "Per Visit",
-        "price": "$50",
+        "price": "$",
         "period": "per mow",
-        "details": "Single weekly mow and trim, no commitment.",
+        "details": "",
         "featured": false
       },
       {
         "plan": "Weekly Plan",
-        "price": "$180",
+        "price": "$",
         "period": "per month",
-        "details": "Weekly mowing plus irrigation checks and pest control.",
+        "details": "",
         "featured": true
       },
       {
         "plan": "Full Season",
-        "price": "$610",
+        "price": "$",
         "period": "Jun – Aug",
-        "details": "Weekly mowing, irrigation, and pest control, all summer. Save 15%.",
+        "details": "",
         "featured": false
       }
     ],
@@ -140,21 +140,21 @@
         "plan": "Single Visit",
         "price": "$85",
         "period": "per visit",
-        "details": "One-time fall cleanup: leaves, beds, and a final mow.",
+        "details": "One-time fall cleanup: leaves, beds, and yard waste.",
         "featured": false
       },
       {
         "plan": "Monthly Care",
         "price": "$140",
         "period": "per month",
-        "details": "Cleanup plus aeration, overseeding, and debris haul-away.",
+        "details": "Weekly leaf removal, bed and yard cleaning.",
         "featured": true
       },
       {
         "plan": "Full Season",
         "price": "$360",
         "period": "Sep – Nov",
-        "details": "Everything above, scheduled and paid up front. Save 15%.",
+        "details": "Everything above, scheduled and paid up front.",
         "featured": false
       }
     ],
@@ -187,43 +187,43 @@
     "spring": [
       {
         "month": "March",
-        "tasks": ["First mow of the season", "Bed edging", "Pre-emergent weed control"]
+        "tasks": []
       },
       {
         "month": "April",
-        "tasks": ["Fertilization", "Mulch refresh", "Irrigation startup"]
+        "tasks": []
       },
       {
         "month": "May",
-        "tasks": ["Regular mowing begins", "Bed planting support", "Pest monitoring"]
+        "tasks": []
       }
     ],
     "summer": [
       {
         "month": "June",
-        "tasks": ["Weekly mowing", "Irrigation tune-up", "Weed control"]
+        "tasks": []
       },
       {
         "month": "July",
-        "tasks": ["Weekly mowing", "Pest treatment", "Heat-stress watering checks"]
+        "tasks": []
       },
       {
         "month": "August",
-        "tasks": ["Weekly mowing", "Irrigation efficiency check", "Fall plan consultations"]
+        "tasks": []
       }
     ],
     "autumn": [
       {
         "month": "September",
-        "tasks": ["Final regular mow", "Weed treatment", "Schedule fall cleanup"]
+        "tasks": ["Weed treatment", "Schedule fall cleanup"]
       },
       {
         "month": "October",
-        "tasks": ["Leaf removal begins", "Core aeration", "Overseeding"]
+        "tasks": ["Leaf removal begins", "Yard debris cleanup"]
       },
       {
         "month": "November",
-        "tasks": ["Final leaf pickup", "Gutter clearing", "Bed & irrigation winterizing"]
+        "tasks": ["Final leaf pickup", "Gutter clearing"]
       }
     ],
     "winter": [
@@ -233,7 +233,7 @@
       },
       {
         "month": "January",
-        "tasks": ["Snow removal on call", "Ice treatment as needed", "Equipment tune-up"]
+        "tasks": ["Snow removal on call", "Ice treatment as needed"]
       },
       {
         "month": "February",
