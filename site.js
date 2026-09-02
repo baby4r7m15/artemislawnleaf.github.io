@@ -26,6 +26,12 @@ function applySeasonTheme(season) {
   document.documentElement.setAttribute('data-season', season);
 }
 
+function fillSeasonTag(season) {
+  document.querySelectorAll('[data-season-tag]').forEach(el => {
+    el.textContent = `Currently showing: ${season === 'autumn' ? 'Autumn' : 'Winter'} theme`;
+  });
+}
+
 function setActiveNav() {
   const path = location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('nav.site-nav a').forEach(link => {
