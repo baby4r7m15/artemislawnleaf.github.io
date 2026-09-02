@@ -1,6 +1,6 @@
 {
   "business": {
-    "name": "Treasure Valley Lawn Care",
+    "name": "Artemis Lawn and Leaf",
     "tagline": {
       "spring": "Systems green — growth season is live.",
       "summer": "Peak season, fully deployed.",
@@ -13,10 +13,10 @@
       "autumn": "We handle the leaf drop, the last mow, and everything your lawn needs before the ground freezes. Locally owned and operated, serving the Treasure Valley since 2016.",
       "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Treasure Valley since 2016."
     },
-    "phone": "(208) 555-0142",
-    "email": "hello@treasurevalleylawncare.com",
-    "address": "Serving Nampa, Caldwell & the Treasure Valley, ID",
-    "hours": "Mon–Sat, 8am–6pm"
+    "phone": "",
+    "email": "",
+    "address": "Serving Boise and Meridian Idaho",
+    "hours": ""
   },
 
   "season": {
