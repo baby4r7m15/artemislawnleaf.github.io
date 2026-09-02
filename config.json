@@ -12,7 +12,7 @@
     "phone": "",
     "email": "",
     "address": "Serving Boise and Meridian Idaho.",
-    "hours": "Mon–Sat, 8am–6pm"
+    "hours": ""
   },
 
   "season": {
@@ -25,20 +25,20 @@
     "autumn": [
       {
         "title": "Fall Cleanup",
-        "price": "From $85",
-        "blurb": "Leaf removal, bed clearing, and a final weeding to close out the season."
+        "price": "From $",
+        "blurb": ""
       },
       {
         "title": "Gutter & Yard Debris",
-        "price": "From $95",
-        "blurb": "Gutter clearing and yard debris haul-away, so nothing clogs when the spring melt hits."
+        "price": "From $",
+        "blurb": ""
       }
     ],
     "winter": [
       {
         "title": "Snow Removal",
         "price": "From $45/visit",
-        "blurb": "Driveway and walkway clearing, plowed or shoveled after every snowfall."
+        "blurb": "Driveway and walkway clearing. Shoveled after every snowfall."
       },
       {
         "title": "Ice Management",
@@ -57,23 +57,23 @@
     "autumn": [
       {
         "plan": "Single Visit",
-        "price": "$85",
+        "price": "$",
         "period": "per visit",
-        "details": "One-time fall cleanup: leaves, beds, and a final weeding.",
+        "details": "",
         "featured": false
       },
       {
         "plan": "Monthly Care",
-        "price": "$140",
+        "price": "$",
         "period": "per month",
-        "details": "Cleanup and debris haul-away.",
+        "details": "",
         "featured": true
       },
       {
         "plan": "Full Season",
         "price": "$360",
         "period": "Aug – Nov",
-        "details": "Everything above, scheduled and paid up front. Save 15%.",
+        "details": "",
         "featured": false
       }
     ],
