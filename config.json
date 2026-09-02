@@ -8,10 +8,10 @@
       "winter": "Winter mode engaged. Already out front."
     },
     "description": {
-      "spring": "Startup checks, first mows, and bed prep to bring your lawn back online after winter. Locally owned and operated, serving the Treasure Valley since 2016.",
-      "summer": "Weekly mowing, irrigation tuning, and pest control to keep your lawn running at full performance through the heat. Locally owned and operated, serving the Treasure Valley since 2016.",
-      "autumn": "We handle the leaf drop, the last mow, and everything your lawn needs before the ground freezes. Locally owned and operated, serving the Treasure Valley since 2016.",
-      "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Treasure Valley since 2016."
+      "spring": "Startup checks, first mows, and bed prep to bring your lawn back online after winter. Locally owned and operated, serving the Boise and Meridian area since 2025",
+      "summer": "Weekly mowing and weeding to keep your lawn looking fresh and green through the heat. lawn running at full performance through the heat. Locally owned and operated, serving the Boise and Meridian area since 2025.",
+      "autumn": "We handle the leaf drop and the last remaining weeds before the ground freezes. Locally owned and operated, serving the Boise and Meridian area since 2025.",
+      "winter": "From driveways to walkways, we keep your property clear and safe through the coldest months. Locally owned and operated, serving the Boise and Meridian area since 2025."
     },
     "phone": "",
     "email": "",
@@ -31,18 +31,18 @@
     "spring": [
       {
         "title": "Spring Startup",
-        "price": "From $80",
-        "blurb": "First mow, bed edging, and a full system check after winter dormancy."
+        "price": "From $",
+        "blurb": ""
       },
       {
         "title": "Fertilization",
-        "price": "From $65",
-        "blurb": "Early-season feeding to green up the lawn and crowd out spring weeds."
+        "price": "From $",
+        "blurb": ""
       },
       {
         "title": "Mulch & Bed Refresh",
-        "price": "From $110",
-        "blurb": "Fresh mulch and cleaned edges to reset your beds for the growing season."
+        "price": "From $",
+        "blurb": ""
       }
     ],
     "summer": [
@@ -52,30 +52,20 @@
         "blurb": "Consistent mowing and trimming on a weekly cycle through peak growth."
       },
       {
-        "title": "Irrigation Tune-Up",
-        "price": "From $90",
-        "blurb": "Sprinkler head checks, coverage adjustments, and leak detection."
-      },
-      {
-        "title": "Weed & Pest Control",
-        "price": "From $75",
+        "title": "Weeding",
+        "price": "From $55",
         "blurb": "Targeted treatment to keep weeds and summer pests off your lawn."
       }
     ],
     "autumn": [
       {
         "title": "Fall Cleanup",
-        "price": "From $85",
-        "blurb": "Leaf removal, bed clearing, and a final trim to close out the season."
-      },
-      {
-        "title": "Aeration & Overseeding",
-        "price": "From $120",
-        "blurb": "Core aeration and overseeding to strengthen roots before winter dormancy."
+        "price": "From $40",
+        "blurb": "Leaf removal, bed clearing, and last minute weeding to close out the season."
       },
       {
         "title": "Gutter & Yard Debris",
-        "price": "From $95",
+        "price": "From $65",
         "blurb": "Gutter clearing and yard debris haul-away, so nothing clogs when the spring melt hits."
       }
     ],
